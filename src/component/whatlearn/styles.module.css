@@ -242,7 +242,7 @@
 
 /* Bottom Note */
 .bottomNote {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 20px 30px;
     background: linear-gradient(135deg, rgba(178,10,10,0.05), rgba(178,10,10,0.02));
     border-left: 4px solid #b20a0a;
