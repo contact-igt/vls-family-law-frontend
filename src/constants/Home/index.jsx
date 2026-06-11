@@ -5,11 +5,11 @@ export const HomePage = {
       titlebold: "How Family Lawyers",
       title: "Actually Build Their Practice in Tamil Nadu",
       desc: "A practical live masterclass for advocates who want to understand how family law practice works — from matrimonial disputes and maintenance cases to divorce proceedings, women protection laws, child-related matters, client handling, and career opportunities in this growing legal practice area.",
-      time: "Saturday, June 6, 2026 • 10:00 AM – 1:00 PM IST",
+      time: "Saturday, June 27, 2026 • 10:00 AM – 1:00 PM IST",
     },
 
     points: [
-      { id: 1, desc: "Saturday, June 6, 2026 • 10:00 AM – 1:00 PM IST" },
+      { id: 1, desc: "Saturday, June 27, 2026 • 10:00 AM – 1:00 PM IST" },
       { id: 2, desc: "Live Session" },
       { id: 3, desc: "Practical Family Law Roadmap" },
       { id: 4, desc: "Tamil Nadu Practice Focused" },
@@ -18,7 +18,7 @@ export const HomePage = {
   fast_fact: [
     {
       id: 1,
-      value: "Saturday, June 6, 2026 • 10:00 AM – 1:00 PM IST",
+      value: "Saturday, June 27, 2026 • 10:00 AM – 1:00 PM IST",
       icon: "calendar-clock",
     },
     {

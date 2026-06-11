@@ -25,7 +25,7 @@ const RegisterSticky = ({ scrollToContactForm }) => {
             <div className="col-lg-6 d-lg-block d-none">
               <div className={styles.meuntitle}>
                 <h4>
-                  Family Law · Career Masterclass — June 6, 2026
+                  Family Law · Career Masterclass — June 27, 2026
                 </h4>
                 <h6>
                   Offer Will Expire in - <span>{`${minutes}:${

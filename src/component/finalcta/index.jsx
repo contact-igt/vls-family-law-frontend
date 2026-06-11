@@ -49,7 +49,7 @@ const FinalCta = ({ ipAddress }) => {
               <div className={styles.badge}>
                 <DynamicIcon name="calendar" size={20} />
                 <div>
-                  <strong>June 6, 2026</strong>
+                  <strong>June 27, 2026</strong>
                   <span>Save the date</span>
                 </div>
               </div>

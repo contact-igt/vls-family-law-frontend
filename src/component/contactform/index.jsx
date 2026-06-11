@@ -82,8 +82,8 @@ const ContactForm = ({
     }
 
     const options = {
-      // key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
-      key: "rzp_test_Ss2NFtpJFLRAiw",
+      key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
+      // key: "rzp_test_Ss2NFtpJFLRAiw",
       amount: order.amount,
       currency: order.currency,
       name: formValues.name,
@@ -94,7 +94,7 @@ const ContactForm = ({
         email: formValues?.email || "",
         mobile: formValues?.mobile || "",
         yearsOfPractice: formValues?.yearsOfPractice || "",
-        programm_date: "2026-06-06",
+        programm_date: "2026-06-27",
         page_name: "family-law-masterclass",
         ip_address: ipAddress || "",
         utm_source: getUTM("utm_source") || "",
@@ -118,7 +118,7 @@ const ContactForm = ({
           mobile: `+91${formValues?.mobile}`,
           yearsOfPractice: formValues?.yearsOfPractice || "",
           amount: order?.amount / 100,
-          programm_date: "2026-06-06",
+          programm_date: "2026-06-27",
           razorpay_order_id: response.razorpay_order_id || "",
           razorpay_payment_id: response.razorpay_payment_id || "",
           razorpay_signature: response.razorpay_signature || "",
@@ -138,9 +138,9 @@ const ContactForm = ({
         //   formValues.name,
         //   HomePage?.razorpay?.amount,
         //   HomePage?.razorpay?.title,
-        //   "June 6th, 2026",
+        //   "June 27th, 2026",
         //   "Online (Live)",
-        //   "June 6",
+        //   "June 27",
         // );
 
 
