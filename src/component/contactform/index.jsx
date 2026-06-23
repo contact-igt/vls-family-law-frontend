@@ -71,13 +71,13 @@ const ContactForm = ({
     const resp = await fetch("/api/create-order", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ amount: HomePage?.razorpay?.amount }),
+      body: JSON.stringify({ amount: 1 }),
     });
 
     const order = await resp.json();
 
     if (!resp.ok) {
-      router.replace("/error");
+      window.location.href = "/error";
       return;
     }
 
@@ -106,7 +106,7 @@ const ContactForm = ({
 
       handler: async (response) => {
         if (!response?.razorpay_payment_id) {
-          router.replace("/error");
+          window.location.href = "/error";
           return;
         }
 
@@ -153,7 +153,7 @@ const ContactForm = ({
         await handleGoogleSheetForm(params);
 
         await safeSetPaymentDetails(apiPayload);
-        router.replace("/thank-you");
+        window.location.href = "/thank-you";
       },
 
       prefill: {
@@ -168,7 +168,7 @@ const ContactForm = ({
     const razor = new window.Razorpay(options);
 
     razor.on("payment.failed", () => {
-      router.replace("/error");
+      window.location.href = "/error";
     });
 
     razor.open();
